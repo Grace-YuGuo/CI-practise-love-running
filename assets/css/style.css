@@ -98,19 +98,25 @@ footer{
     background-color: orange;
 }
 
-/* Google fonts */
-
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .oswald{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px){
+    /* Header */
+    nav{
+        display:block;
+        position:relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right:1rem;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu >li{
+        padding-left:1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+}
   
 
