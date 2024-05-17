@@ -195,6 +195,15 @@ main{
 
 }
 
+/* Gallery page */
+#photos img{
+    width:100%;
+}
+
+#photos {
+    line-height:0px;
+}
+
 /* Footer */
 #social-networks{
     text-align:center;
