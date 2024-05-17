@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
     font-family: 'Oswald', sans-serif; 
-    text-transform: uppdercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
